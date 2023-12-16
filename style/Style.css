@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+.primary-color{
+    color:#5d5850;
+}
+.secondary-color{
+    color:#ae7a7a;
+}
+/* navbar Style */
+
+.nav {
+    background-color: #EBE8E9;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: #5d5850;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav a.active{
+    color: #ae7a7a;
+}
+/****Home Page Style****/
+/* Table Style */
+.names {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+.names table{
+    text-align: center;
+    border-spacing: 25px;
+   
+}
+.names table caption{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.names table tr{
+    margin: 5px;
+}
+.names table tr td{
+    font-size: 18px;
+}
+
+/* Horizontal Rule Style */
+hr{
+    width: 50%;
+    margin: 20px auto 20px;
+}
+/* Link Style */
+.link{
+    margin-top: 10px;
+    text-align: center
+
+}
+.link h2{
+    margin-bottom: 10px;
+}
+.link a{
+    font-weight: bold;
+    text-decoration:none;
+}
+/****About Page Style****/
+.about{
+    text-align: center;
+    margin-top: 20px;
+}   
+.about .text{
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
+    }
+    .about .text p{
+        margin-bottom: 10px;
+    }
+    .about .text ol {
+        list-style-position: inside;
+    }
+    .about .text ol li{
+        margin-top: 15px;
+       
+    }
+.contact{
+    
+    text-align: center;
+}
+
+.contact h2,.contact p{
+    margin-bottom: 40px;
+}
+.contact p span{
+    font-weight: bold;
+}
+
+.social a {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.social a img{
+    width: 100px;
+}
+/****Appliances Page Style****/
+.appliances , .basket{
+    margin: 0 auto 20px auto;
+    width: 80%;
+    text-align: center;
+}
+.appliances table , .basket table{
+    width: 100%;
+  border-spacing: 10px;
+    border: 1px solid #ae7a7a;
+    text-align: center;
+    
+}
+.appliances table caption , .basket table caption{
+    margin: 20px;
+    font-size: 23px;
+    font-weight: bold;
+   
+}
+.appliances table tr td{
+ border-bottom: 8px solid #ae7a7a;
+}
+.appliances table tr td:first-child{
+    font-weight: bold;
+    
+}
+.appliances table tr td .holder{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.appliances table tr td .holder img{
+    width: 300px;
+}
+.appliances table tr td .holder button{
+    padding:15px;
+    background-color: #ae7a7a;
+    color:#fff6e8;
+    border: none;
+    border-radius: 26px;
+    
+    margin-top: 10px;
+    cursor: pointer;
+}
+.basket table{
+    border-collapse: collapse;
+   
+}
+.basket table tr td,.basket table tr th {
+    padding: 20px;
+}
+#confirm,#cancel,#buy-btn{
+    border: none;
+    padding: 10px 15px;
+    background-color: #ae7a7a;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+}
+.form{
+    width:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    visibility: hidden;
+}
+form{
+    border: 1px solid #ae7a7a;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+#captcha{
+    font-size: 24px;
+    letter-spacing: 0.5rem;
+}
